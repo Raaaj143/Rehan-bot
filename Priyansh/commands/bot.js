@@ -82,7 +82,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Nhi rahunga. 😼 Mujhe Bolna H. Tumhe Koi Haq nhi Mujhe Chup Karane ka. Mera Zuban. M Bolunga", threadID);
    };
 
-   if ((event.body.toLowerCase() == "bts") || (event.body.toLowerCase() == "btc")) {
+   if ((event.body.toLowerCase() == "priya") || (event.body.toLowerCase() == "priyu")) {
      return api.sendMessage("Tu H Btc. Bhos DK", threadID);
    };
 
