@@ -82,8 +82,8 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Nhi rahunga. 😼 Mujhe Bolna H. Tumhe Koi Haq nhi Mujhe Chup Karane ka. Mera Zuban. M Bolunga", threadID);
    };
 
-   if ((event.body.toLowerCase() == "priya") || (event.body.toLowerCase() == "priyu")) {
-     return api.sendMessage("Tu H Btc. Bhos DK", threadID);
+   if ((event.body.toLowerCase() == "prabhat") || (event.body.toLowerCase() == "Bhai")) {
+     return api.sendMessage("Rahari ke khet me gaya hai", threadID);
    };
 
    if ((event.body.toLowerCase() == "malik se bakchodi") || (event.body.toLowerCase() == "malik se backchodi") || (event.body.toLowerCase() == "malkin se bakchodi") || (event.body.toLowerCase() == "malkin se backchodi")) {
