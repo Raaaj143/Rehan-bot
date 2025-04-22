@@ -56,7 +56,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("Main Hun Naw Jaaneman ❤️", threadID);
    };
 
-   if ((event.body.toLowerCase() == "Priya") || (event.body.toLowerCase() == "Priyu") || (event.body.toLowerCase() == "priyansh") || (event.body.toLowerCase() == "prince")) {
+   if ((event.body.toLowerCase() == "priya") || (event.body.toLowerCase() == "priyu") || (event.body.toLowerCase() == "priyansh") || (event.body.toLowerCase() == "prince")) {
      return api.sendMessage( "Madam bas rehan ki hai unko mention karna band karo",threadID);
 
        
